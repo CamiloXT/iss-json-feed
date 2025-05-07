@@ -1,0 +1,31 @@
+name: ACTUALIZAR-ISS
+on:
+  schedule:
+    - cron: '25 7 * * *'      # 07:25 UTC (≈02:25 Colombia)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+      - run: python scraper.py
+
+      - name: Commit JSON
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add iss_hoy.json
+          git commit -m "auto: JSON $(date -u '+%F')" || echo "Nada nuevo"
+          git push
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_dir: .
+          github_token: ${{ secrets.GITHUB_TOKEN }}
