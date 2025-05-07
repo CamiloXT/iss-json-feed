@@ -4,6 +4,9 @@ on:
     - cron: '25 7 * * *'      # 07:25 UTC (≈02:25 Colombia)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
