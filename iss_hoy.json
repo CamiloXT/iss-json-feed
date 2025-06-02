@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "magnitud": "-1,4",
+    "hora_ini": "20:04:02",
+    "alt_ini": 10,
+    "ac_ini": 337,
+    "hora_max": "20:05:13",
+    "alt_max": 20,
+    "ac_max": 337,
+    "hora_fin": "20:05:13",
+    "alt_fin": 20,
+    "ac_fin": 337,
+    "tipo": "visible"
+  }
+]
