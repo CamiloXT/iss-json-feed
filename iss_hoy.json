@@ -1,15 +1,28 @@
 [
   {
-    "magnitud": "-2,4",
-    "hora_ini": "19:39:49",
+    "magnitud": "-1,8",
+    "hora_ini": "18:52:12",
     "alt_ini": 10,
-    "ac_ini": 337,
-    "hora_max": "19:42:00",
-    "alt_max": 29,
-    "ac_max": 22,
-    "hora_fin": "19:42:00",
-    "alt_fin": 29,
-    "ac_fin": 22,
+    "ac_ini": 22,
+    "hora_max": "18:54:14",
+    "alt_max": 15,
+    "ac_max": 45,
+    "hora_fin": "18:55:54",
+    "alt_fin": 11,
+    "ac_fin": 90,
+    "tipo": "visible"
+  },
+  {
+    "magnitud": "-0,3",
+    "hora_ini": "20:28:33",
+    "alt_ini": 10,
+    "ac_ini": 270,
+    "hora_max": "20:28:50",
+    "alt_max": 11,
+    "ac_max": 270,
+    "hora_fin": "20:28:50",
+    "alt_fin": 11,
+    "ac_fin": 270,
     "tipo": "visible"
   }
 ]
