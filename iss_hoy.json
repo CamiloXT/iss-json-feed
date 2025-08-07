@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "magnitud": "-0,6",
+    "hora_ini": "5:41:16",
+    "alt_ini": 10,
+    "ac_ini": 135,
+    "hora_max": "5:41:59",
+    "alt_max": 11,
+    "ac_max": 135,
+    "hora_fin": "5:42:42",
+    "alt_fin": 10,
+    "ac_fin": 112,
+    "tipo": "visible"
+  },
+  {
+    "magnitud": "-1,2",
+    "hora_ini": "18:50:12",
+    "alt_ini": 10,
+    "ac_ini": 292,
+    "hora_max": "18:52:37",
+    "alt_max": 19,
+    "ac_max": 225,
+    "hora_fin": "18:55:04",
+    "alt_fin": 10,
+    "ac_fin": 180,
+    "tipo": "visible"
+  }
+]
