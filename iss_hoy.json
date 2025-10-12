@@ -1,15 +1,15 @@
 [
   {
-    "magnitud": "-3,2",
-    "hora_ini": "5:18:39",
-    "alt_ini": 10,
-    "ac_ini": 225,
-    "hora_max": "5:21:47",
-    "alt_max": 37,
-    "ac_max": 315,
-    "hora_fin": "5:24:54",
+    "magnitud": "-3,8",
+    "hora_ini": "4:33:15",
+    "alt_ini": 68,
+    "ac_ini": 202,
+    "hora_max": "4:33:36",
+    "alt_max": 81,
+    "ac_max": 135,
+    "hora_fin": "4:36:55",
     "alt_fin": 10,
-    "ac_fin": 22,
+    "ac_fin": 45,
     "tipo": "visible"
   }
 ]
